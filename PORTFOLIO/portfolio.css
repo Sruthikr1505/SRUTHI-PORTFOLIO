@@ -60,7 +60,7 @@ body {
     color: var(--secondary-color);
 }
 
-/* Welcome Section */
+
 #welcome-section {
     height: 100vh;
     display: flex;
@@ -351,7 +351,7 @@ footer {
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    display: none; /* Initially hidden */
+    display: none; 
     transition: background-color 0.3s ease, transform 0.3s ease;
     z-index: 1000;
 }
@@ -365,8 +365,6 @@ footer {
     font-size: 1.5rem;
 }
 
-
-/* Media Query for Responsiveness */
 @media (max-width: 768px) {
     .navbar-container {
         flex-direction: column;
